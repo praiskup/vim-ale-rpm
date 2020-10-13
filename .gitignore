@@ -1,0 +1,4 @@
+*.tar.gz
+*.src.rpm
+ale-*/
+noarch/
