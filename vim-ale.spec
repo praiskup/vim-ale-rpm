@@ -3,8 +3,8 @@
 %global         nvimfiles       %{_datadir}/nvim/runtime
 
 Name:           vim-%upstream_name
-Version:        3.0.0
-Release:        2%{?dist}
+Version:        3.1.0
+Release:        1%{?dist}
 Summary:        Asynchronous Vim Lint Engine
 License:        BSD
 
@@ -77,6 +77,10 @@ done
 
 
 %changelog
+* Tue Jun 22 2021 Pavel Raiskup <praiskup@redhat.com> - 3.1.0-1
+- new upstream release, per release notes:
+  https://github.com/dense-analysis/ale/releases/tag/v3.1.0
+
 * Mon Nov 30 2020 Pavel Raiskup <praiskup@redhat.com> - 3.0.0-2
 - make the plugin working with neovim, too
 
